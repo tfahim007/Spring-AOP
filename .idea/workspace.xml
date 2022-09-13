@@ -7,6 +7,8 @@
     <list default="true" id="ce3e911c-6858-479c-ac3e-f06ef0aeefe8" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/tahmid/aopdemo/MainDemoApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tahmid/aopdemo/MainDemoApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tahmid/aopdemo/aspect/MyLoggingAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tahmid/aopdemo/aspect/MyLoggingAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tahmid/aopdemo/dao/MembershipDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tahmid/aopdemo/dao/MembershipDAO.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +83,7 @@
       <updated>1663061489016</updated>
       <workItem from="1663061490519" duration="41000" />
       <workItem from="1663061601404" duration="577000" />
-      <workItem from="1663062197630" duration="6244000" />
+      <workItem from="1663062197630" duration="10063000" />
     </task>
     <servers />
   </component>

@@ -1,5 +1,6 @@
 package com.tahmid.aopdemo.dao;
 
+import com.tahmid.aopdemo.Account;
 import org.springframework.stereotype.Component;
 
 /**
@@ -7,7 +8,7 @@ import org.springframework.stereotype.Component;
  */
 @Component
 public class MembershipDAO {
-    public  void addAccount(){
+    public  void addAccount(Account account){
         System.out.println( getClass()
                 + " Doing my work: Adding an Membership account");
     }
