@@ -1,5 +1,6 @@
 package com.tahmid.aopdemo;
 
+import com.tahmid.aopdemo.dao.MembershipDAO;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import com.tahmid.aopdemo.dao.AccountDAO;
 
@@ -12,7 +13,9 @@ public class MainDemoApp {
         AnnotationConfigApplicationContext context =
                 new AnnotationConfigApplicationContext(DemoConfig.class);
         AccountDAO theAccountDAO = context.getBean("accountDAO",AccountDAO.class);
+        MembershipDAO membershipDAO = context.getBean("membershipDAO",MembershipDAO.class);
         theAccountDAO.addAccount();
+        membershipDAO.addAccount();
         context.close();
     }
 }
