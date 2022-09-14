@@ -1,8 +1,10 @@
 package com.tahmid.aopdemo.aspect;
 
+import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Before;
 import org.aspectj.lang.annotation.Pointcut;
+import org.aspectj.lang.reflect.MethodSignature;
 import org.springframework.stereotype.Component;
 
 /**
@@ -20,7 +22,12 @@ public class MyLoggingAspect {
     }
 
     @Before("forDaoPackage()")
-    public void performAPIAnalytics(){
+    public void performAPIAnalytics(JoinPoint joinPoint){
+
+        MethodSignature methodSignature = (MethodSignature) joinPoint.getSignature();
+        System.out.println(methodSignature);
         System.out.println("================= EXECUTING FANVY APIS=========");
     }
+
+
 }
